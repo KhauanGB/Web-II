@@ -1,0 +1,19 @@
+# Configurações do VS Code
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependências (caso use Composer futuramente)
+vendor/
+
+# Dependências (caso use Node futuramente)
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.local
