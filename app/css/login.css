@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#eef3ee;
+
+    height:100vh;
+
+}
+
+.container{
+
+    display:flex;
+
+    height:100vh;
+
+}
+
+/* ESQUERDA */
+
+.left{
+
+    width:50%;
+
+    background:#2e7d32;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:50px;
+
+}
+
+.left h1{
+
+    font-size:90px;
+
+    margin-bottom:20px;
+
+}
+
+.left h2{
+
+    font-size:38px;
+
+    margin-bottom:20px;
+
+}
+
+.left p{
+
+    font-size:18px;
+
+    max-width:420px;
+
+    text-align:center;
+
+    line-height:30px;
+
+}
+
+/* DIREITA */
+
+.right{
+
+    width:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* LOGIN */
+
+.login-box{
+
+    width:380px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+.login-box h2{
+
+    margin-bottom:30px;
+
+    text-align:center;
+
+    color:#2e7d32;
+
+}
+
+.login-box label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+    color:#555;
+
+}
+
+.login-box input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+}
+
+.login-box input:focus{
+
+    outline:none;
+
+    border-color:#2e7d32;
+
+}
+
+.login-box button{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2e7d32;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.login-box button:hover{
+
+    background:#1b5e20;
+
+}
